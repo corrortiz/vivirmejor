@@ -314,7 +314,7 @@
                 <div class="row">
                     <div class="book">
                         <div class="book__form">
-                            <form action="" class="form">
+                            <form class="form" action="correo" name="contacto" method="POST" netlify>
                                 <div class="u-margin-bottom-medium">
                                     <h2 class="heading-secondary">
                                         Agenda tu cita 
@@ -335,9 +335,9 @@
                                     <input type="text" class="form__input" placeholder="Teléfono" id="phone" required>
                                     <label for="text" class="form__label">Teléfono</label>
                                 </div>
-
+                                <div netlify-recaptcha></div>
                                 <div class="form__group">
-                                    <button class="btn btn--green">Contáctanos</button>
+                                    <button class="btn btn--green" type="submit">Contáctanos</button>
                                 </div>
                             </form>
                         </div>
